@@ -2,11 +2,10 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Spell from "./Spell";
 import Pagination from "react-bootstrap/Pagination";
-import { useNavigate } from "react-router-dom";
+
 
 export default function Spells() {
 
-  const navigate = useNavigate();
   const [spells, setSpells] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const spellsPerPage = 12;
@@ -54,11 +53,6 @@ export default function Spells() {
           </Pagination.Item>
         ))}
       </Pagination>
-      <div className="navigate">
-        <button onClick={ () => navigate(-1) }>Go back</button>
-        <button onClick={ () => navigate("/") }>Go to Home page</button>
-        <button onClick={ () => navigate("/quiz") }>Take a Quiz</button>
-      </div>
     </div>
   );
 }

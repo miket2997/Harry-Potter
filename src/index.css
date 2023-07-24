@@ -464,7 +464,7 @@ footer ul {
   }
 }
 
-@media screen and (max-width: 850px){
+@media screen and (max-width: 920px){
   .question {
     display: flex;
     flex-direction: column;

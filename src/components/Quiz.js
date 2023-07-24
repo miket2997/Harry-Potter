@@ -17,7 +17,7 @@ export default function Quiz(){
             setShowScore(true)
         }
     };
-    console.log(quizQuestions)
+
 
     return (
         <div className="quiz--container">
