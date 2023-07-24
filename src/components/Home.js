@@ -42,11 +42,12 @@ export default function Home() {
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-4xl font-bold tracking-tight sm:text-6xl">Harry Potter</h2>
           <p className="mt-6 text-lg leading-8 text-gray-300">
-            Welcome to the magical world of Harry Potter! Our Harry Potter app is designed to bring the enchanting universe of witches, wizards,
-            spells, and adventures right to your fingertips. Explore a wealth of Harry Potter information, including character details, spells, 
-            Hogwarts houses, and more. Immerse yourself in the wizarding world through interactive features like a sorting hat quiz, spell lookup,
-            and captivating house information. Whether you're a devoted fan or new to the series, our app offers an immersive experience that 
-            will transport you to the extraordinary realm of Harry Potter.
+            Welcome to the enchanting world of Harry Potter! Step into the realm of witches, wizards, and captivating adventures with our Harry 
+            Potter app. Immerse yourself in a wealth of magical information, including a list of beloved characters, each with their own detailed
+            profiles. Discover a vast collection of spells that will leave you spellbound. Challenge your wizarding knowledge with our Harry Potter 
+            quiz!  Test your expertise in the magical universe as you answer questions about spells, characters, and more. Whether you're a 
+            seasoned fan or new to this enchanting world, our quiz will put your knowledge to the test and bring out the true Hogwarts enthusiast
+            in you!
           </p>
         </div>
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">

@@ -1,12 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
-import { Link } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
+
 
 export default function CharacterDetails(){
-
-    const navigate = useNavigate();
 
     const { characterId } = useParams();
 
@@ -137,11 +134,6 @@ export default function CharacterDetails(){
                     ) }
                 </tbody>
             </table>
-        </div>
-        <div className="detail--page--links">
-            <Link className="dp--links" to="/">Go to Home page</Link>
-            <Link className="dp--links" onClick={ () => navigate(-1) }>Go back</Link>
-            <Link className="dp--links" to="/quiz">Take Quiz</Link>
         </div>
     </div>
     
