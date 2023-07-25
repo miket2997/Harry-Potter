@@ -256,11 +256,14 @@ ul li {
   list-style: none;
 }
 
-
 /* Spells */
 .spells--container {
-  min-height: 110vh;
+  height: auto;
   background-color: #F8E8D4;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 .spells--header {
@@ -299,27 +302,8 @@ ul li {
 }
 
 .spell p {
-  font-size: 14px;
+  font-size: .9rem;
   color: #555;
-}
-
-.navigate {
-  display: flex;
-  justify-content: center;
-}
-
-.navigate button {
-  margin: 2rem;
-  background-color: rgb(104, 199, 104);
-  padding: 1rem;
-  border: none;
-  border-radius: 5px;
-  color: #010101;
-}
-
-.navigate button:hover {
-  background-color: rgb(81, 166, 81);
-  color: #fff;
 }
 
 /* Quiz */
@@ -428,6 +412,18 @@ footer ul {
   .character-info {
     max-width: 85%;
   }
+
+  .choices:hover {
+    background-color: #ccc;
+  }
+
+  .spell p {
+    font-size: .6rem;
+  }
+
+  .spells--header p {
+    margin: 1rem;
+  }
 }
 
 @media screen and (max-width: 360px) {
@@ -461,6 +457,19 @@ footer ul {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .spells--container {
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+
+  .spell {
+    width: 40%;
+  }
+
+  .spell h2 {
+    font-size: .8rem;
   }
 }
 
